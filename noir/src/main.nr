@@ -1,26 +1,14 @@
 mod const;
+mod oracle;
+mod hash;
 
-#[oracle(get_sqrt)]
-unconstrained fn sqrt(number: Field) -> Field {}
+use const::{N, M, P};
 
-unconstrained fn get_sqrt(number: Field) -> Field {
-    sqrt(number)
-}
-
-fn main(x: Field, y: pub Field) {
-    let mut acc: Field = 0;
-    for i in 0..const::P {
-        for j in 0..const::P {
-            acc += const::EXPONENTIATE[i][j];
-        }
-    }
-    assert(acc.lt(x));
-    assert(x != y);
+fn main(point: Field, input: pub [Field; N]) {
+    let x_s_0 = hash::evaluate_input_0(point, input);
+    print(x_s_0);
+    assert(x_s_0.lt(P));
 }
 
 #[test]
-fn test_main() {
-    main(1, 2);
-    // Uncomment to make test fail
-    // main(1, 1);
-}
+fn test_main() {}

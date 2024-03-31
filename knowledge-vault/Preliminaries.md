@@ -1,4 +1,4 @@
-dev# Asymptotic Notation
+# Asymptotic Notation
 ***Asymptotic notation*** is used to express ***growth rates*** of functions in a concise manner. For any $f$ and $g$ both defined on some *unbounded subset* of *positive integers* to the *non-negative real numbers*, such that $g(n)$ is *strictly positive* for *large enough* $n$, we have
 $$
 \begin{align}

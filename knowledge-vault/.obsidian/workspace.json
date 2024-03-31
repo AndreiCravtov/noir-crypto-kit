@@ -13,26 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWIFFT Implementation.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e4c04a0ad3ee8a76",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bdf5b79b88484c6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preliminaries.md",
+                "file": "Sources.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -89,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "6017d97faeac867e",
@@ -106,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Preliminaries.md",
+                "file": "Sources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Preliminaries.md",
+                "file": "Sources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Preliminaries.md"
+                "file": "Sources.md"
               }
             }
           },
@@ -188,11 +168,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "bdf5b79b88484c6e",
+  "active": "020b81191abdc689",
   "lastOpenFiles": [
+    "Preliminaries.md",
     "SWIFFT Implementation.md",
     "Sources.md",
-    "Preliminaries.md",
     "Recap - \"Generalized compact knapsacks, cyclic lattices, and efficientone-way functions\".md",
     "Welcome.md",
     "misc/Backlog.md",
