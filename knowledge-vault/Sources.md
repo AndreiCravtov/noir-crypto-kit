@@ -3,3 +3,5 @@
 [SWIFFT: A Modest Proposal for FFT Hashing](https://link.springer.com/chapter/10.1007/978-3-540-71039-4_4)
 
 [Polynomial modular product verification and its implications](https://www.sciencedirect.com/science/article/pii/S0747717122000773) <-- super important
+
+[Linea Prover Documentation]([https://eprint.iacr.org/2022/1633.pdf)

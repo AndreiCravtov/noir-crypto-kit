@@ -1,13 +1,9 @@
-mod const;
-mod oracle;
 mod hash;
 
-use const::{N, M, P};
+use hash::{IMG_1280_720_24_BYTES, hash_img_1280_720_24};
 
-fn main(point: Field, input: pub [Field; N]) {
-    let x_s_0 = hash::evaluate_input_0(point, input);
-    print(x_s_0);
-    assert(x_s_0.lt(P));
+fn main(input: pub [Field; IMG_1280_720_24_BYTES]) {
+    let out = hash_img_1280_720_24(input);
 }
 
 #[test]
